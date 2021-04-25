@@ -11,7 +11,7 @@ if is_test==0:
     col = [-1,-1,-1,-1,-1,-1]
 
 else:
-    n = int(input("Enter the number of queens for NxN board:  "))
+    n = int(input("Enter the number of queens for  NxN board:  "))
     for i in range(n):
         queens.append(input("Enter Coordinates of queen: ").split())
         row.append(-1)
